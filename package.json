@@ -1,0 +1,20 @@
+{
+  "name": "@koharakazuya/alfred-mdn-ja",
+  "version": "0.1.0",
+  "description": "An Alfred workflow searches MDN docs with Japanese",
+  "keywords": [
+    "alfred",
+    "mdn",
+    "japanese"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "^0.12.2"
+  }
+}
